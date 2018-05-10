@@ -1,0 +1,70 @@
+input:focus,
+button:focus {
+  outline: none;
+}
+
+.main {
+	background: url(../img/bg.jpg) center 50% no-repeat;
+	height: 65rem;
+}
+.main_field {
+  width: 80%;
+  height: 40rem;
+  background-color: rgba(0, 0, 0, 0.9);
+  box-shadow: 0px 0px 80px 0px rgba(0, 0, 0, 0.5);
+  margin:15rem 10% 0 10%;
+  padding: 15px;
+  border: 3px solid #006400;
+  overflow-y: auto;
+}
+
+.form_text {
+	color: #ffffff;
+	font-size: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+.news {
+	padding-top: 50px;
+}
+
+.form__input {
+	width: 200px;
+	height: 40px; 
+  border: none;
+  border-radius: 4px;
+  padding-left: 10px;
+  margin-top: 22px;
+  margin-bottom: 22px;
+}
+
+.check_btn {
+	width: 200px;
+	height: 40px;
+	margin-top: 33px;
+	margin-left: 0;
+	padding-top: 5px;
+	text-align: center;
+	border: 3px solid #006400;
+	border-radius: 10px;
+	background-color: rgba(0, 100, 0, 0.4);
+	outline: none;
+	color: #fff;
+	font-size: 18px;
+}
+
+.main_btn {
+	width: 400px;
+	height: 40px;
+	margin-top: 10px;
+	margin-left: 100px;
+	border: 3px solid #8B0000;
+	border-radius: 10px;
+	background-color: rgba(255, 0, 0, 0.4);
+	outline: none;
+	color: #fff;
+	font-size: 24px;
+	letter-spacing: 3px;
+}

@@ -1,0 +1,136 @@
+.navigation
+	.container
+		position: relative
+.menu
+	position: fixed
+	top: 0
+	left: 0
+	width: 100%
+	padding-top: 12px
+	@include roboto
+	text-align: center
+	text-transform: uppercase
+	color: $text-color-light
+	background-color: $text-color-dark
+	font-size: 12px
+	height: 45px
+	z-index: 1001
+	&-ul
+		display: flex
+		flex-wrap: wrap
+		justify-content: space-between
+		list-style-type: none
+	&-link
+		color: $text-color-light
+		text-decoration: none
+		padding:
+			left: 14px
+			top: 5px
+			bottom: 5px
+		border-left: 2px dotted rgba($text-color-light, 0.2)
+		transition: all 0.2s
+		&-first
+			border: none
+			padding-left: 0
+		&:hover
+			margin-top: -10px
+			color: $active-color
+			font-size: 16px
+			text-decoration: none
+
+	&_min
+		display: none
+		left: 0
+		width: 150px
+		height: 100%
+		background-color: rgba($text-color-dark, 0.9)
+		transition: all 0.5s
+		.container
+			padding: 0
+			height: 100%
+		&-ul
+			justify-content: center
+			height: 100%
+			padding-top: 80px
+			padding-bottom: 50px
+		&-li
+			list-style-type: none
+			text-align: center
+			min-width: 100px
+		&-link
+			letter-spacing: 1px
+			transition: all 0.2s
+			padding: 0
+			border: none
+			&:hover
+				color: $active-color
+				font-size: 15px
+				text-decoration: none
+
+
+	
+
+
+	/*описание кнопки меню  */
+	&-mobile
+		display: none
+		&__text
+			display: none
+			margin-top: 11px
+		&-link
+			position: relative
+			display: inline-block
+			margin:
+				left: -7px
+				top: 4px
+			width: 100%
+			height: 50px
+			color: rgba($text-color-dark, 0.5)
+			@include roboto-m
+			letter-spacing: 1px
+			background-color: $text-color-light
+			text-align: center
+			border: 1px solid rgba($text-color-dark, 0.5)
+			border-radius: 3px
+			z-index: 1002
+			&:hover
+					box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4)
+			&_active
+				.menu-mobile__line
+					background-color: transparent
+					&:before
+						transform: rotate(135deg)
+						margin-top: 0
+					&:after
+						transform: rotate(-135deg)
+						margin-top: 0
+		&__line, &__line:before, &__line:after
+			position: absolute
+			top: 50%
+			left: 50%
+			margin-top: -2px
+			margin-left: -11px
+			display: block
+			height: 3px
+			width: 22px
+			background-color: $text-color-dark
+		&__line
+			&:before
+				content: ''
+				margin-top: -8px
+				margin-left: -11px
+				transition: all 0.2s
+			&:after
+				content: ''
+				margin-top: 5px
+				margin-left: -11px
+				transition: all 0.2s
+
+
+
+
+
+
+
+
+		

@@ -1,0 +1,173 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Tahoma;
+	font-size: 30px;
+	font-weight: 400;
+}
+
+button:focus {    /* убираем обводку у кнопок с помощью псевдокласса*/
+	outline: none;
+}
+
+.container {
+	width: 1140px;
+	margin: 0 auto;
+	
+}
+
+.header {
+	padding-top: 77px;
+	padding-bottom: 96px;
+}
+
+.header-img {
+	display: inline-block;
+	vertical-align: middle;
+	width: 41%;
+}
+
+.header-text {
+	display: inline-block;
+	vertical-align: middle;
+  width: 58%;
+}
+
+.header-text__title {
+	font-size: 48px;
+	font-weight: 700;
+	margin-bottom: 8px;
+}
+
+.header-text__subtitle {
+	font-size: 30px;
+	font-weight: 400;
+	margin-bottom: 28px;
+}
+
+.header-text__description {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 27px;
+	max-width: 530px;
+	margin-bottom: 40px;
+}
+
+.header-text__price {
+	font-size: 48px;
+	font-weight: 400;
+	margin-bottom: 50px;
+}
+ 
+.button {
+	border-radius: 5px;
+	background-color: #f05a22;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 27px;
+	color: #ffffff;
+	padding: 22px 43px;
+	border: 2px solid #f05a22;
+	margin-bottom: 100px; /* надо ли? это для"похожести" на макет */
+
+}
+
+.button-o {
+	background-color: transparent;
+	color: #f05a22;
+	border: 2px solid #f05a22;
+	margin-left: 35px;
+}
+
+/* =================================== section ===========================================*/
+.features {
+	background-color: #f2f2f2;
+	padding-top: 89px;
+	padding-bottom: 99px;
+}
+
+.section-title {
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 27px;
+	text-align: center;
+	margin-bottom: 87px;
+}
+
+.features-wrap::after { /*обертка с псевдоэлементом*/
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.features-block{
+	display: inline-block;
+	width: 25%;
+	float: left;
+	text-align: center;
+}
+
+.features-block__img {
+	min-height: 56.3px; 
+	margin-bottom: 7px;
+}
+
+.features-block__text {
+	font-family: "Open Sans";
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 22px;
+	
+
+}
+
+/* ==================================== footer ===========================================*/
+.who-bought {
+ 	padding-top: 89px;
+	padding-bottom: 71px;
+}
+
+.footer-title {
+	margin-bottom: 69px;
+}
+
+.photo-section__img {
+	display: inline-block;
+	width: 25%;
+	float: left;
+	text-align: center;
+	margin-bottom: 40px;
+	max-width: 261px;
+	height: 261px;
+	margin-right: 32px;
+	overflow:hidden;
+  background-color: #c7b39b;
+}
+
+.last{
+	margin-right: 0;
+}
+
+.bigsize-girl {  /* обрезание с 2х сторон большой картинки*/
+	max-width: 150%; 
+	margin: 0 -100px 0 -100px;
+}
+
+.bigsize-tiger { /* вырезание из центра большой картинки*/
+	max-width: 200%;
+	margin: -210px 0 0 -30px;
+}
+
+.mini-cat{ /*увеличение и обрезание маленькой картинки*/
+	
+	min-width: 185%;
+	margin: 0 0 0 -100px;
+}
+
+.photo-section::after { /*обертка с псевдоэлементом*/
+	content: '';
+	display: table;
+	clear: both;
+}

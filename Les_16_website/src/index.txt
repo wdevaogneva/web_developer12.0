@@ -1,0 +1,284 @@
+
+
+
+
+<!-- ============================================= -->
+
+
+
+		<section class="clients" id="clients">
+			<div class="container">
+				<h2 class="section-title">
+					Наши клиенты
+				</h2>
+				<!-- /.section-title -->
+
+				<div class="row">
+					<div class="col-3">
+						<div class="clients-img">
+							<img src="img/clients/voshod.jpg" alt="Восход" class="clients-img-hover">
+							<img src="img/clients/voshod-o.jpg" alt="Восход" class="clients-img-nohover">
+						</div>
+						<!-- /.clients-img -->
+					</div>
+					<!-- /.col-3 -->
+
+					<div class="col-3">
+						<div class="clients-img">
+							<img src="img/clients/ctepx.jpg" alt="СТЕРХ" class="clients-img-hover">
+							<img src="img/clients/ctepx-o.jpg" alt="СТЕРХ" class="clients-img-nohover"></div>
+						<!-- /.clients-img -->
+					</div>
+					<!-- /.col-3 -->
+
+					<div class="col-3">
+						<div class="clients-img">
+							<img src="img/clients/silver-snow.jpg" alt="Серебряный Снег" class="clients-img-hover">
+							<img src="img/clients/silver-snow-o.jpg" alt="Серебряный Снег" class="clients-img-nohover"></div>
+						<!-- /.clients-img -->
+					</div>
+					<!-- /.col-3 -->
+
+					<div class="col-3">
+						<div class="clients-img">
+							<img src="img/clients/avdon.jpg" alt="Авдон" class="clients-img-hover">
+							<img src="img/clients/avdon-o.jpg" alt="Авдон" class="clients-img-nohover"></div>
+						<!-- /.clients-img -->
+					</div>
+					<!-- /.col-3 -->
+
+
+					<div class="w-100"></div>
+
+
+					<div class="col-3">
+						<div class="clients-img">
+							<img src="img/clients/chicken.jpg" alt="Турбаслинские бройлеры" class="clients-img-hover">
+							<img src="img/clients/chicken-o.jpg" alt="Турбаслинские бройлеры" class="clients-img-nohover"></div>
+						<!-- /.clients-img -->
+					</div>
+					<!-- /.col-3 -->
+
+					<div class="col-3">
+						<div class="clients-img">
+							<img src="img/clients/icecream.jpg" alt="Башкинрское мороженное" class="clients-img-hover">
+							<img src="img/clients/icecream-o.jpg" alt="Башкинрское мороженное" class="clients-img-nohover"></div>
+						<!-- /.clients-img -->
+					</div>
+					<!-- /.col-3 -->
+
+					<div class="col-3">
+						<div class="clients-img">
+							<img src="img/clients/allat.jpg" alt="Аллат" class="clients-img-hover">
+							<img src="img/clients/allat-o.jpg" alt="Аллат" class="clients-img-nohover"></div>
+						<!-- /.clients-img -->
+					</div>
+					<!-- /.col-3 -->
+
+					<div class="col-3">
+						<div class="clients-img">
+							<img src="img/clients/alternative.jpg" alt="Альтернатива" class="clients-img-hover">
+							<img src="img/clients/alternative-o.jpg" alt="Альтернатива" class="clients-img-nohover"></div>
+						<!-- /.clients-img -->
+					</div>
+					<!-- /.col-3 -->
+
+
+					<div class="w-100"></div>
+
+
+					<div class="col-3">
+						<div class="clients-img">
+							<img src="img/clients/turkey.jpg" alt="Индюшкин" class="clients-img-hover">
+							<img src="img/clients/turkey-o.jpg" alt="Индюшкин" class="clients-img-nohover"></div>
+						<!-- /.clients-img -->
+					</div>
+					<!-- /.col-3 -->
+
+					<div class="col-3">
+						<div class="clients-img">
+							<img src="img/clients/glass.jpg" alt="Салаватстекло" class="clients-img-hover">
+							<img src="img/clients/glass-o.jpg" alt="Салаватстекло" class="clients-img-nohover"></div>
+						<!-- /.clients-img -->
+					</div>
+					<!-- /.col-3 -->
+
+					<div class="col-3">
+						<div class="clients-img">
+							<img src="img/clients/milk.jpg" alt="Молочный Фермер" class="clients-img-hover">
+							<img src="img/clients/milk-o.jpg" alt="Молочный Фермер" class="clients-img-nohover"></div>
+						<!-- /.clients-img -->
+					</div>
+					<!-- /.col-3 -->
+
+					<div class="col-3">
+						<div class="clients-img">
+							<img src="img/clients/megi.jpg" alt="МЕГИ" class="clients-img-hover">
+							<img src="img/clients/megi-o.jpg" alt="МЕГИ" class="clients-img-nohover"></div>
+						<!-- /.clients-img -->
+					</div>
+					<!-- /.col-3 -->
+
+				</div>
+				<!-- /.row -->
+			</div>
+			<!-- /.container -->
+		</section>
+		<!-- /.clients -->
+
+
+<!-- ============================================= -->
+
+
+		<section class="feedback" id="feedback">
+			<div class="container">
+				<h2 class="section-title">
+					Отзывы о сотрудничестве
+				</h2>
+				<!-- /.section-title -->
+				<div class="feedback-slider">
+					<div class="feedback-slider__item"><img src="img/feedback/1.jpg" alt=""></div>
+					<!-- /.feedback-slider__item -->
+					<div class="feedback-slider__item"><img src="img/feedback/2.jpg" alt=""></div>
+					<!-- /.feedback-slider__item -->
+					<div class="feedback-slider__item"><img src="img/feedback/3.jpg" alt=""></div>
+					<!-- /.feedback-slider__item -->
+					<div class="feedback-slider__item"><img src="img/feedback/1.jpg" alt=""></div>
+					<!-- /.feedback-slider__item -->
+					<div class="feedback-slider__item"><img src="img/feedback/2.jpg" alt=""></div>
+					<!-- /.feedback-slider__item -->
+					<div class="feedback-slider__item"><img src="img/feedback/3.jpg" alt=""></div>
+					<!-- /.feedback-slider__item -->
+				</div>
+				<!-- /.feedback-slider -->
+			</div>
+			<!-- /.container -->
+		</section>
+		<!-- /.feedback -->
+
+
+
+<!-- ============================================= -->
+
+		<footer class="footer">
+			<div class="container">
+				<small>
+					© www.gofra-ural.ru 2016, все права защищены
+				</small>
+			</div>
+			<!-- /.container -->
+		</footer>
+		
+		
+
+
+
+<!-- ============================================= -->
+		<!-- модальное окно -->
+		<div class="overlay">
+			<div class="popup">
+				<div class="popup-title">
+					Форма обратной связи
+				</div>
+				<!-- /.popup-title -->
+				<div class="popup-close">
+					&times;
+				</div>
+				<!-- /.popup-close -->
+				<div class="popup-form">
+					<form action="#" class="main-form">
+						<div class="popup-form-header">
+							Получите индивидуальное предложение
+							<span>на производство и поставку изделий</span>
+						</div>
+						<!-- /.popup-form-header -->
+						<label for="phone" class="popup-form__label">Введите ваш номер телефона:</label>
+						<input type="tel" class="popup-form__input" name="phone" required placeholder="+7 (XXX) XXX-XX-XX">
+						<button class="button popup-form__btn">
+							Оставить заявку!
+						</button>
+						<div class="popup-form__note">*Минимальный заказ 500шт 
+						</div>
+					</form>
+				</div>
+				<!-- /.popup-form -->
+			</div>
+			<!-- /.popup -->
+		</div>
+		<!-- /.overlay -->
+
+<!-- ============================================= -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&_min
+		position: fixed
+		top: 0
+		left: 0
+		width: 150px
+		height: 100%
+		@include roboto
+		text-align: center
+		text-transform: uppercase
+		background-color: $text-color-dark
+		font-size: 12px
+		z-index: 1001
+		padding-top: 70px
+		li
+			margin-bottom: 15px
+		&-link
+			color: $text-color-light
+			text-decoration: none
+			&:hover
+				text-decoration: none
+				color: $active-color
+				font-size: 16px
+
+
+
+
+
+/*===== раскрывающееся меню =====*/
+/*проверяем документ на загрузку*/
+$(document).ready(function(){
+	var link = $('.menu-mobile-link');
+	var link_active = $('.menu-mobile-link_active');
+	var menu = $('.menu_min');
+	var menu_active = $('.menu_min_active');
+	/*var menu_mobile_on = $('.menu-ul');
+	var menu_mobile_off = $('.menu-ul-mobile');*/
+
+
+	link.click(function(){
+		/*добавляем класс*/
+		link.toggleClass('menu-mobile-link_active');
+		/*menu_mobile_on.toggleClass('menu-ul-mobile');*/
+		/*menu_mobile_on.removeClass('menu-ul');*/
+		menu_min.toggleClass('menu_min_active');
+
+	});	
+
+	link_active.click(function(){
+		/*удаляем класс*/
+		link.removeClass('menu-mobile-link_active');
+		/*menu_mobile_off.toggleClass('menu-ul');*/
+		/*menu_mobile_off.removeClass('menu-ul-mobile');*/
+		menu_min.removeClass('menu_min_active');
+	});
+
+});

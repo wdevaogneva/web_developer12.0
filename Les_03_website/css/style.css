@@ -1,0 +1,109 @@
+body {
+	text-indent: 10px;
+	background-color: #000000;
+	color: #DCDCDC;
+	}
+
+.menu {
+	text-indent: -3px;
+	position: fixed;/*меню на одном месте*/
+	top: 20px;/*привязка к верху страницы*/
+	right: 1px; /*привязка к правому краю*/
+	width: 210px;
+  background-color: rgba(277, 167, 54, 0.2);
+  border: 2px solid rgba(255, 153, 0, 0.5);
+  border-radius: 20px;
+  font-size: 12px;
+ }
+
+ .menu a {
+	padding: none;
+	text-decoration: none;
+	color: #cc0033;
+}
+
+ .menu a:hover {
+	background-color: rgba(277, 167, 54, 0.8);
+  border: 2px solid rgba(255, 153, 0, 1);
+  color: #000000;
+}
+
+
+
+.my-text {
+	display: inline-block;
+	width: 80%;
+	padding-left: 15px;
+}
+
+.title {
+	display: block; /* присваивает картинке характеристику блочного элемента*/
+	margin: 0 auto; /*верхний и нижний отступ=0, левый и правый отступ - одинаковые*/
+	width: 50%;
+}
+
+small {
+	font-style: italic;
+}
+
+h1 {
+	text-align: center;
+	color: #cc0033;
+	letter-spacing: 0.10em;
+}
+
+h2 {
+ 	text-align: center;
+ 	text-decoration: underline;
+}
+
+h3 {
+	text-align: center;
+	text-decoration:line-through;
+	letter-spacing: 1em;
+	text-transform: uppercase;
+}
+
+.img-left {
+	margin: 15px;
+	float: left; /*обтекание текстом справа*/
+	width: 30%;
+}
+
+.img-right {
+	margin: 15px;
+	float: right;
+	width: 30%;
+}
+
+span {
+	font-style: italic;
+	color: gold;
+}
+
+.to-be-continued {
+	display: block;
+	text-align: center;
+	font-style: italic;
+}
+
+.up-button {
+	display: block;
+	text-decoration:none;
+	margin-left: auto;
+	padding: 10px;
+	text-align: center;
+	background-color: rgba(277, 167, 54, 0.2);
+  border: 2px solid rgba(255, 153, 0, 0.5);
+  border-radius: 20px;
+  font-size: 17px;
+  color: rgba(255, 153, 0, 0.5);
+  width: 170px;
+}
+
+.up-button:hover {
+	background-color: rgba(277, 167, 54, 1);
+  border: 2px solid rgba(255, 153, 0, 0.8);
+  color: rgba(0, 0, 0, 1);
+}
+

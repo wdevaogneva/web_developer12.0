@@ -1,0 +1,134 @@
+.main
+	/*задаем позицию для использования затемнения*/
+	/*заставляем элемент стать "жестким"- своеобразной "формой для выпекания"*/
+	position: relative
+	color: $text-color-light
+	
+		/* для позиционирования формы жестко для слайдера */
+	.container
+		position: relative
+	&-slider
+		&_slide
+			padding-top: 43px
+			height: 530px
+			/* затемнение фонового изображения на главном экране*/
+			&::before
+				content: ''
+				display: block
+				/*позиция относительно самой картинки от левого верхнего угла на 100% ширину и высоту*/
+				/*это как тесто, растекающееся внутри жесткой формы*/
+				position: absolute
+				left: 0
+				top: 0
+				width: 100%
+				height: 100%
+				background-color: rgba(0, 0, 0, 0.2)
+				z-index: 0
+			&-1
+				background: $text-color-dark url(../img/main/main-bg.jpg) center no-repeat
+			&-2
+				background: $text-color-dark url(../img/main/main-bg-2.jpg) center no-repeat
+
+	/*оформление главной картинки*/
+	&-img
+		margin:
+			left: -106px
+			top: 22px
+		position: relative
+		min-height: 392px
+		z-index: 1
+		&::before
+			content: ''
+			position: absolute
+			width: 390px
+			height: 390px
+			left: 50%
+			margin:
+				left: -143px
+				top: 11px
+			border: 1px solid rgba($text-color-light, 0.4)
+				radius: 50%
+			z-index: -1
+			/*заголовок */
+		&::after
+			content: ''
+			position: absolute
+			width: 60px
+			height: 50px
+			background: transparent url(../img/main/main-logo.png) center no-repeat
+			z-index: 2
+			left: 21%
+			top: 80%
+			margin-top: 22px
+			
+		&-new
+			padding:
+				left: 54px
+				top: 37px
+
+
+	&-text
+		margin-top: 20px
+		margin-bottom: 13px
+		position: relative
+		z-index: 2
+
+		&__title
+			line-height: 42px
+			margin-bottom: 9px
+			@include roboto-m
+			font-size: 41px
+
+		&__subtitle
+			letter-spacing: 0.3px
+			@include roboto-l
+			font-size: 28px
+			margin-bottom: 15px
+
+		/*позиционирование формы жестко для слайдера */
+		&__form
+			position: absolute
+			top: 213px
+			left: 422px
+			max-width: 535px
+			background-color: rgba($text-color-light, 0.2)
+			padding: 21px 27px 28px 27px
+			z-index: 2
+
+.form
+	&-title
+		margin-bottom: 19px
+		padding-right: 50px
+		@include roboto-l
+		font-size: 20px
+		line-height: 30px
+		&__important
+			display: block
+			text-transform: uppercase
+			@include roboto-b
+	&__input
+		margin:
+			bottom: 5px
+			right: 6px
+		padding: 15px 80px 16px 19px
+		width: 64%
+		vertical-align: middle
+		border: none
+			radius: 4px
+	&-small
+		@include roboto-l
+		font-size: 14px
+		margin-left: 19px
+
+
+
+
+
+
+
+
+
+		
+
+
+

@@ -1,0 +1,777 @@
+@media (max-width: 1199px)
+	.main
+		&-slider
+			&_slide
+				padding-top: 30px
+		&-text
+			&__title, &__subtitle
+				text-align: center
+		&-img
+			text-align: center
+			margin: 0 auto
+			padding-top: 50px
+			&-old
+				width: 100%
+				margin: 40px auto
+				max-width: 366px
+			&-new
+				width: 103%
+				margin: 40px auto
+				max-width: 400px
+			
+			&::before
+				width: 300px
+				height: 300px
+				margin:
+					left: -108px
+					top: 49px
+			&::after
+				background-size: 75%
+				left: 20%
+				top: 60%
+				margin-top: 105px
+
+
+/* ==================================*/
+/* ======================================*/
+/*===================================== */
+
+@media (max-width: 991px)
+	.menu
+		font-size: 10px
+		height: 42px
+		&-link
+			&:hover
+				font-size: 12px
+	.header
+		margin-top: 50px
+		&-contacts
+			&__phone
+				text-align: right
+				margin-right: 12px
+				padding: 0
+				font-size: 16px
+	.main	
+		&-slider
+			&_slide
+				padding-top: 20px
+				height: 350px		
+		&-img
+			padding-top: 0
+			max-width: 290px
+			&-old
+				max-width: 290px
+			&-new
+				width: 108%
+				max-width: 313px
+				margin-left: -13px
+				padding-top: 25px
+			&::before
+				width: 232px
+				height: 232px
+				margin:
+					left: -82px
+					top: 9px
+			&::after
+				background-size: 63%
+				left: 46px
+				top: 192px
+				margin-top: 1px
+		&-text
+			margin-top: 10px
+			&__title
+				font-size: 30px
+				color: $active-color
+				line-height: 32px;
+			&__subtitle
+				font-size: 22px
+				line-height: 24px;
+
+			&__form
+				top: 150px
+				left: 45%
+				width: 52%
+				padding: 10px
+
+
+
+	.form
+		display: block
+		margin: 0 auto
+		text-align: center
+
+		&-title
+			text-align: center
+			margin-bottom: 5px
+			padding-right: 0
+			font-size: 16px
+			line-height: 20px
+			&__important
+				line-height: 34px
+		&__input
+			text-align: center
+			font-size: 14px
+			margin:
+				bottom: 10px
+				right: 15px
+			padding: 10px
+			width: 55%
+		&-small
+			display: block
+			text-align: center
+			letter-spacing: 1px
+			font-size: 12px
+			margin-left: 0
+	.button_big
+		margin-top: -5px
+		text-align: center
+		padding: 9px
+
+	
+	.numbers
+		margin-top: 20px
+		margin-bottom: 25px
+		&-block
+			&__title
+				margin-left: 5px
+				font-size: 32px
+				sup
+					font-size: 20px
+			&__descr
+				font-size: 13px
+	.features-block
+		&__title
+			font-size: 12px
+		&__descr
+			font-size: 12px
+	.media
+		padding-left: 5px
+		padding-right: 15px
+		img
+			max-width: 44px
+		&-body
+			max-width: 75%
+
+	.products
+		padding-top: 59px
+
+		&-block
+			max-height: 420px
+			img
+				min-height: 242px
+				width: 372px
+			&__imgclip
+		
+				margin: 0 0 -30px 0
+
+			&__title
+				max-width: 300px
+				margin:
+					left: auto
+					right: auto
+	.production
+		padding-top: 70px
+		&-slider
+			&__top
+				max-height: 215px
+				margin-left: 20px
+			&__bottom
+				margin-left: 20px
+				max-height: 57.3px
+		&-text
+			max-width: 420px
+			&__title
+				font-size: 20px
+				margin-top: 10px				
+			&__descr
+				margin:
+					left: -8px
+					top: 10px
+				p
+					font-size: 14px
+					line-height: 18px
+	.clients-img
+		&-hover
+			max-width: 90%
+		&-nohover
+			max-width: 90%
+
+	.feedback
+		&-slider
+			&__item
+				height: 100%
+				min-height: 287px
+
+	.popup
+		width: 600px
+		&-title
+			min-height: 40px
+			font-size: 18px
+			line-height: 50px
+		&-form
+			padding: 25px 60px
+			&-header
+				font-size: 24px
+				span
+					font-size: 20px
+			&__label
+				font-size: 16px
+			&__input, &__btn
+				display: block
+				margin-right: auto	
+				margin-left: auto
+				padding: 0
+				height: 50px
+				text-align: center
+			&__btn
+				width: 240px
+			&__note
+				font-size: 12px
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+
+
+
+
+/* ==================================*/
+/* ======================================*/
+/*===================================== */
+/*767 - ибо странный глюк происходит при ширине 768,если здесь поставить 768... */
+
+@media (max-width: 767px)
+	.hidden-s-mobile
+		display: none
+	.menu
+		display: none
+		height: 100%
+		font-size: 12px
+		&-link
+			&:hover
+					font-size: 14px
+		&_min
+			display: block
+			z-index: 499
+		&-mobile
+			display: block
+			z-index: 1005
+			&-link
+				margin-top: -1px
+				z-index: 1005
+				&:hover
+					background-color: $active-color
+					color: $text-color-light
+					border-color: $active-color
+			
+			&__text
+				display: inline-block
+			&__line
+				display: none
+
+	.header
+		position: relative
+		z-index: 500
+		background-color: rgba(#ffffff, 0.9)
+		margin:
+			top: 10px
+			bottom: 60px
+		&-fix
+			position: fixed
+			top: 0
+			left: 0
+			width: 100%
+			background-color: rgba(#ffffff, 0.9)
+			padding-top: 5px	
+			padding-bottom: 5px
+		&-logo
+			background: $active-color url(../img/logo_mobile.png) center no-repeat
+			 size: 75%
+			width: 50px
+			height: 50px
+			border-radius: 3px
+			padding: 4px
+			margin-left: -25px
+		&-contacts
+			&__phone
+				text-align: right
+				margin-right: 12px
+				padding: 0
+				&s
+					flex-direction: column
+					justify-content: flex-end
+				font-size: 16px
+				&:first-child
+					border: none
+				span
+					@include roboto-b
+	.phone-right
+		margin-right: 25px
+
+
+	.main
+		&-text
+			&__title
+				max-width: 500px
+				margin:
+					left: auto
+					right: auto
+			&__form
+				top: 150px
+				left: 10%
+				width: 80%
+				padding: 10px
+				max-width: 80%
+
+	.numbers
+		&-block
+			&__title
+				margin-left: 5px
+				font-size: 24px
+				sup
+					font-size: 16px
+			&__descr
+				font-size: 12px
+
+	.products
+		margin-top: 40px	
+		&-block
+			max-height: 420px
+			img
+				min-height: 242px
+				width: 372px
+			&__imgclip
+		
+				margin: 0 0 -30px 0
+
+			&__title
+				max-width: 300px
+				margin:
+					left: auto
+					right: auto
+
+	.offer
+		max-height: 450px
+		padding:
+			top: 25px
+			bottom: 20px
+		&-title
+			font-size: 28px
+			&_small
+				font-size: 22px
+		&-form
+			&__label
+				font-size: 18px
+			&__input
+				height: 48px
+			&_small
+				font-size: 12px
+	.button-offer
+		height: 50px
+		padding: 0 28px
+		margin-bottom: 10px
+
+	.production
+		&-slider
+			&__top
+				max-height: 363px
+				max-width: 546px
+				margin:
+					left: auto
+					right: auto
+		&-text
+			max-width: 100%
+			&__title
+				@include roboto-b
+				text-align: center
+				margin: 0			
+			&__descr
+				max-width: 546px
+				margin: 10px auto
+		.slider-arrow
+	 		height: 79px
+	 		top: 142px
+	 		&__right
+	 			&_feedback
+	 				border: 1px $active-color solid
+	 				background: $active-color url(../img/arrow-right_active.png) center no-repeat
+	 				&:hover
+	 					background-color: lighten($active-color, 5)
+	 		&__left
+	 			&_feedback
+	 				border: 1px $active-color solid
+	 				background: $active-color url(../img/arrow-left_active.png) center no-repeat
+					&:hover
+						background-color: lighten($active-color, 5)
+
+	.feedback
+		&-slider
+			&__item
+				height: 100%
+				min-height: 316px
+	
+ 			
+
+
+ 	.slider-arrow
+ 		height: 79px
+ 		top: 125px
+ 		&__right
+ 			&_feedback
+ 				border: 1px $active-color solid
+ 				background: $active-color url(../img/arrow-right_active.png) center no-repeat
+ 				&:hover
+ 					background-color: lighten($active-color, 5)
+ 		&__left
+ 			&_feedback
+ 				border: 1px $active-color solid
+ 				background: $active-color url(../img/arrow-left_active.png) center no-repeat
+				&:hover
+					background-color: lighten($active-color, 5)
+
+	.popup
+		width: 510px
+		&-form
+			&-header
+				span
+					display: block
+			
+ 	
+
+		
+
+
+
+/* ==================================*/
+/* ======================================*/
+/*===================================== */
+
+
+
+
+
+@media (max-width: 575px)
+
+	.hidden-mobile
+		display: none
+
+	.menu
+		display: none
+		&_min
+			display: block
+			&-ul
+				padding-top: 60px
+		&-mobile
+			display: block
+			&__text
+				display: none
+			&__line
+				display: block
+			&-link
+				margin-top: 5px
+				width: 36px
+				height: 35px
+				border: none
+				&:hover
+					box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4)
+
+	.header
+		margin:
+			top: 0
+			bottom: 55px
+		&-logo
+			width: 35px
+			height: 35px
+			padding: 7px
+			margin-left: -15px
+		&-contacts
+			margin-left: -15px
+			&__button
+				img
+					padding: 0
+			&__phone
+				margin: 0
+				font-size: 14px
+
+	.phone-right
+		margin:
+			right: 13px
+			top: -5px
+				
+	.button
+		padding: 0
+		margin: 0
+		min-width: 27px
+		height: 27px
+		img
+			margin-top: -3px
+			width: 14px
+			height: 13px
+
+	.main
+		&-slider
+			&_slide
+				height: 450px
+				padding-top: 35px
+		&-text
+			&__title
+				font-size: 22px
+				line-height: 24px
+				max-width: 400px
+			&__subtitle
+				font-size: 18px
+				line-height: 18px
+			&__form
+				background-color: transparent
+				top: 150px
+				width: 100%
+				padding: 20
+				left: 0
+				max-width: 100%
+	.form
+		height: 160px
+		&-title
+			font-size: 15px
+			line-height: 18px
+
+		&__input
+			display: block
+			font-size: 13px
+			margin: 9px auto 13px auto
+			padding: 14px
+			width: 80%
+			min-width: 290px
+		&-small
+			margin-top: 5px
+			letter-spacing: 0px
+			font-size: 13px
+			line-height: 30px
+	.button_big
+		display: block
+		margin: 0 auto
+		text-align: center
+		@include roboto-l
+		font-size: 15px
+		height: 51px
+		min-width: 180px
+
+
+	.numbers
+		flex-wrap: wrap
+		justify-content: center
+		margin-bottom: 10px
+		&-block
+			margin-bottom: 12px
+			&__title
+				font-size: 30px
+				@include roboto-black
+				sup
+					font-size: 18px
+			&__descr
+				font-size: 14px
+				line-height: 18px
+	.media
+		height: 113px
+		margin-bottom: 8px
+
+	.features-block
+		&__title
+			font-size: 15px
+			@include roboto-black
+			line-height: 18px
+		&__descr
+			@include roboto
+			font-size: 13px
+			line-height: 18px
+
+	.section
+		&-title
+			font-size: 22px
+			line-height: 18px
+			margin-bottom: 15px
+			&::after
+				display: none
+	.products
+		&-block
+			max-height: 420px
+			img
+				min-height: 150px
+				width: 305px
+				margin-left: -15px
+			&__imgclip
+		
+				margin: 0 0 -30px 0
+
+			&__title
+				max-width: 300px
+				margin:
+					top: 5px
+					left: auto
+					right: auto
+				font-size: 18px
+				@include roboto-b
+				
+			&__buttons
+				margin-top: 15px
+	.button
+		&-o, &_long
+			text-align: center
+			@include roboto-l
+			font-size: 14px
+			height: 45px
+		&-o
+			min-width: 110px
+			margin-right: 10px
+		&_long
+			min-width: 152px
+
+	.offer
+		max-height: 400px
+		padding:
+			top: 45px
+			bottom: 52px
+		&-title
+			@include roboto-b
+			font-size: 20px
+			line-height: 24px
+			margin-bottom: 25px
+			&_small
+				@include roboto
+				font-size: 16px
+		&-form
+			&__label
+				font-size: 14px
+				margin-bottom: 20px
+			&_small
+				@include roboto-l
+				font-size: 12px
+				letter-spacing: 0.5px
+	.button-offer
+		height: 50px
+		padding: 0 28px
+		margin:
+			bottom: 10px
+			left: auto
+			right: auto
+	.production
+		.slider-arrow__left_feedback, .slider-arrow__right_feedback
+ 			margin-top: -86px
+		&-slider
+			&__top
+				max-height: 194.5px
+				max-width: 291px
+		&-text
+			&__title
+				text-transform: uppercase	
+			&__descr
+				max-width: 546px
+				p
+					line-height: 18px
+					text-align: center
+					margin-bottom: 12px
+
+	.clients-img
+		height: 87px
+		margin:
+			left: -10px
+			right: -10px
+			top: 3px
+			bottom: 4px
+		&-hover, &-nohover
+			max-width: 80%
+			max-height: 80%
+
+	.section
+		&-title
+			line-height: 24px
+			@include roboto-b
+
+	.feedback
+		&-slider
+			padding-left: 11px
+			padding-right: 11px
+			&__item
+				margin-right: 0
+				min-height: 377px
+				img
+					height: 377px
+					width: 268px
+	.footer
+		font-size: 14px
+		line-width: 237px
+
+
+	.popup
+		width: 270px
+		&-title
+			min-height: 30px
+			font-size: 16px
+			line-height: 40px
+		&-form
+			padding: 10px 8px
+			&-header
+				font-size: 18px
+				span
+					font-size: 15px
+			&__label
+				font-size: 14px
+			&__input
+				width: 240px
+				height: 40px
+			&__btn
+				display: block
+				margin: 10px auto	5px auto
+				width: 180px
+				height: 40px
+			&__note
+				font-size: 12px
+		&-close
+			right: 0px
+			top: -12px
+			font-size: 26px
+			@include roboto
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+			
+
+
+
+
+		
+
+
+

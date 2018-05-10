@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&subset=cyrillic,cyrillic-ext')
+@import url('https://fonts.googleapis.com/css?family=Roboto:300&subset=cyrillic,cyrillic-ext')
+
+*
+	box-sizing: border-box
+
+body
+	margin: 0
+	font:
+		family: "Roboto Slab", sans-serif
+		weight: 700
+		
+button:focus
+	outline: none
+
+.header
+	background: url(../img/bcg-and-girl.jpg) center 0 no-repeat
+		size: cover
+	&-img
+		display: none
+	
+.container
+	display: flex
+	justify-content: space-between
+	width: 100%
+	height: 780px
+	margin: auto
+	padding:
+		top: 33px
+		left: 70px
+
+.title
+	margin-left: -2px
+	padding-top: 110px
+	font-size: 60px
+	line-height: 59px
+	color: #7c6db0
+
+.subtitle
+	width: 409px
+	margin:
+		top: -4px
+		bottom: 96px
+	padding: 6px 19px 6px 21px
+	font-size: 36px
+	line-height: 57px
+	color: #ffffff
+	background-color: #7f70b1
+
+.description
+	display: flex
+	margin:
+		bottom: 118px
+		left: 5px
+	&__img
+		width: 52px
+		height: 60px
+		margin-right: 39px
+	&__text
+		width: 283px
+		height: 49px
+		margin: 0
+		font:
+			family: "Roboto"
+			size: 22px
+			weight: 300
+		line-height: 30px
+		color: #000000
+
+.button
+	width: 360px
+	height: 80px
+	padding: 26px 50px 30px 60px
+	margin-right: 27px
+	font-size: 22px
+	line-height: 26px
+	text-align: center
+	letter-spacing: 1px
+	color: #ffffff
+	background-color: #01b3e0
+	border: 2px solid #01b3e0
+	box-shadow: 0 2px 16px rgba(0, 215, 255, 0.44)
+	span
+		margin:
+			top: -5px
+			right: 0
+	&-o		
+		padding:
+			right: 75px
+			left: 75px
+		color: #01b3e0
+		background-color: transparent
+
+@media (max-width: 1200px)
+	.header
+		height: 500px
+		background: url(../img/background.jpg) center 0 no-repeat
+
+	.container
+		flex-wrap: wrap
+		justify-content: space-around
+		max-width: 100%
+		margin: 0		
+		padding:
+			right: 15px
+			left: 40px
+
+	.header-img
+		display: inline-block
+		height: 62%
+		margin-right: 25px
+
+	.title
+		padding: 0
+		margin-bottom: 10px
+		font-size: 40px
+
+	.subtitle
+		max-width: 290px
+		padding: 2px 0
+		margin-bottom: 60px
+		font-size: 25px
+		text-align: center
+
+	.description
+		margin:
+			bottom: 60px
+			left: 5px
+		&__img
+			width: 10%
+			height: 10%
+		&__text
+			font-size: 22px
+	
+	.button
+		max:
+			width: 240px
+			height: 50px
+		padding: 2px 0
+		margin-right: 20px
+		font-size: 16px
+		&-o
+			margin-right: 0
+
+@media (max-width: 992px)
+	.header
+		height: 410px
+
+	.container	
+		padding:
+			right: 10px
+			left: 10px
+
+	.header-img
+		height: 50%
+		margin-right: 1px
+
+	.title
+		margin-top: 0
+
+	.description
+		margin-left: 10px
+		&__text
+			margin-top: -5px
+			font-size: 18px
+		&__img
+			margin-right: 20px
+
+	.button
+		max-width: 200px
+		margin-right: 10px
+		font-size: 15px
+
+@media (max-width: 768px)
+
+	.header-img
+		display: none
+	.button
+		margin-right: 20px
+
+@media (max-width: 480px)
+	.header
+		min-height: 500px
+	.title
+		display: block
+		margin:
+			right: auto
+			left: auto
+		font-size: 35px
+		text-align: center
+		
+	.subtitle
+		display: block
+		max-width: 260px
+		margin:
+			right: auto
+			left: auto
+		font-size: 20px
+
+	.description
+		margin:
+			bottom: 60px
+			left: 50px
+		&__text
+			font-size: 16px
+	.button
+		display: block
+		margin:
+			right: auto
+			left: auto
+			bottom: 20px
+
+
+
+
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+

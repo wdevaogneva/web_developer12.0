@@ -1,0 +1,36 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Tahoma;
+	font-weight: 700;
+	color: #333333;
+	text-align: center;
+}
+
+h1 {
+	font-size: 24px;
+	text-transform: uppercase;
+	padding-top: 70px;
+	padding-bottom: 81px;
+
+}
+
+.advantage-img {
+	min-height: 80px;
+	/*vertical-align: middle; почему это не сработало тут?*/
+}
+
+p {
+  font-size: 16px;
+}
+
+
+/* это способ без использования order, задание дополнительного класса 4му элементу
+
+@media (max-width: 768px) {
+	.the-first {
+	order: -1;
+ }
+}*/

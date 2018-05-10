@@ -1,0 +1,110 @@
+$col: #f05a22
+
+*
+	box-sizing: border-box
+
+body
+	margin: 0
+	font:
+		family: "Tahoma", sans-serif
+		size: 30px
+		weight: 400
+	color: #000000
+
+button:focus
+	outline: none
+
+.container
+	width: 1140px
+	margin: 0 auto
+	display: flex
+	justify-content: space-around
+	align-items: center
+	flex-wrap: wrap
+	&2
+		flex-direction: column
+
+.header
+	padding:
+		top: 77px
+		bottom: 96px
+	&-img
+		max-width: 100%
+	&-text
+		margin-bottom: 50px
+		&__title
+			margin:
+				top: 0
+				bottom: 15px
+			font:
+				size: 48px
+				weight: 700px
+		&__subtitle
+			margin-bottom: 35px
+			font-size: 30px
+		&__description
+			max-width: 530px
+			margin-bottom: 47px
+			font-size: 18px
+		&__price
+			margin-bottom: 53px
+			font-size: 48px
+			color: #313131
+.button
+	margin:
+		bottom: 40px
+		right: 40px
+	padding: 22px 43px
+	font:
+		size: 24px
+		weight: 700
+	color: #ffffff
+	background-color: $col
+	border: 2px solid $col
+		radius: 5px
+	&-o
+		color: $col
+		background-color: transparent
+
+/* ================================= features =================================*/
+
+.features
+	padding:
+		top: 89px
+		bottom: 60px
+	background-color: #f2f2f2
+	&-wrap
+		display: flex
+		flex-direction: row
+		align-self: stretch
+		justify-content: space-between
+		
+	&-block
+		display: flex
+		flex-direction: column
+		align-items: center
+		
+		&__img
+			min-height: 57px
+			margin-bottom: 7px
+		&__text
+			margin-bottom: 40px
+			font:
+				family: "Open Sans", sans-serif
+				size: 18px
+			text-align: center 
+			/*   or with flex too? */
+
+.section-title 
+	margin-bottom: 91px
+	font:
+		size: 30px
+		weight: 700
+
+
+
+
+
+
+
+

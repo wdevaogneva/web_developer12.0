@@ -1,0 +1,104 @@
+.main
+	/*задаем позицию для использования затемнения*/
+	/*заставляем элемент стать "жестким"- своеобразной "формой для выпекания"*/
+	position: relative
+	padding:
+		top: 30px
+		bottom: 55px
+	background: $text-color-dark url(../img/main/main-bg.jpg) center no-repeat
+	/* background-size: cover */
+	color: $text-color-light
+	z-index: 1
+	/* затемнение фонового изображения на главном экране*/
+	&::before
+		content: ''
+		display: block
+		/*позиция относительно самой картинки от левого верхнего угла на 100% ширину и высоту*/
+		/*это как тесто, растекающееся внутри жесткой формы*/
+		position: absolute
+		left: 0
+		top: 0
+		width: 100%
+		height: 100%
+		background-color: rgba(0, 0, 0, 0.7)
+		z-index: 0
+	/*оформление главной картинки*/
+	&-img
+		margin-left: -106px
+		position: relative
+		&::before
+			content: ''
+			position: absolute
+			width: 390px
+			height: 390px
+			left: 50%
+			margin:
+				left: -143px
+				top: 11px
+			border: 1px solid $text-color-light
+				radius: 50%
+			z-index: -1
+			/*заголовок */
+		&::after
+			content: ''
+			position: absolute
+			width: 60px
+			height: 50px
+			background: transparent url(../img/main/main-logo.png) center no-repeat
+			z-index: 2
+			left: 21%
+			top: 80%
+			margin-top: 31px
+
+
+	&-text
+		margin-bottom: 20px
+		&__title
+			line-height: 42px
+			margin-bottom: 9px
+			@include roboto
+			font-size: 41px
+		&__subtitle
+			letter-spacing: 0.3px
+			@include roboto-l
+			font-size: 28px
+			margin-bottom: 20px
+		&__form
+			background-color: rgba($text-color-light, 0.2)
+			padding: 21px 27px 32px 27px
+
+.form
+	&-title
+		margin-bottom: 17px
+		padding-right: 50px
+		@include roboto-l
+		font-size: 20px
+		line-height: 30px
+		&__important
+			display: block
+			text-transform: uppercase
+			@include roboto-b
+	&__input
+		margin:
+			bottom: 5px
+			right: 9px
+		padding: 21px 121px 21px 19px
+		vertical-align: middle
+		border: none
+			radius: 4px
+	&-small
+		@include roboto-l
+		font-size: 14px
+		margin-left: 19px
+
+
+
+
+
+
+
+
+		
+
+
+

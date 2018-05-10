@@ -1,0 +1,49 @@
+.section
+	&-title
+		color: $text-color-dark
+		@include roboto-b
+		font-size: 27px
+		text-transform: uppercase
+		text-align: center
+		margin-bottom: 20px
+		&::after
+			content: ''
+			display: block
+			margin-top: 12px
+			height: 6px
+			background: transparent url(../img/line.png) center no-repeat
+
+.button
+	font:
+		size: 14px
+		weight: 500
+	background-color: $active-color
+	color: $text-color-light
+	border: 1px $active-color solid
+	padding: 12px 21px
+	border-radius: 5px
+	@include roboto-m
+	&:hover
+		background-color: lighten($active-color, 5)
+		cursor: pointer
+	img
+		width: 20px
+		height: 20px
+		vertical-align: middle
+	&_big
+		margin-bottom: 5px
+		padding: 16px 22px
+		vertical-align: middle
+	&_long
+		padding: 12px 29px
+	&-o
+		color: rgba($text-color-dark, 0.5)
+		border: 1px rgba($text-color-dark, 0.5) solid
+		background-color: transparent
+		margin-right: 8px
+		padding: 12px 27px
+		&:hover
+			color: $text-color-light
+			background-color: lighten($active-color, 5)
+			border: 1px $active-color solid
+
